@@ -87,28 +87,7 @@ void pattern7(int n)
         cout << endl;
     }
 }
-void pattern8(int n){
-    for (int i = n-1 ; i >= 0; i--)
-    {
-        for (int j = n-1; j < n-i-1 ; j--)
-        {
-            cout<<"   ";
-        }
 
-        for (int k = n-1; k >=0; k--)
-        {
-            cout<<" * ";
-        }
-        
-        for (int l = n-1; l > n-i-1; l--)
-        {
-           cout<<"   ";
-        }
-        cout<<endl;
-        
-    }
-    
-}
 int main()
 {
     int n, m;
@@ -128,7 +107,7 @@ int main()
         // pattern5(n);
         // pattern6(n);
         // pattern7(n);
-        pattern8(n);
+        // pattern8(n);
     }
 
     return 0;
