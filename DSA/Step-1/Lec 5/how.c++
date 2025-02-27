@@ -16,6 +16,7 @@ void printName(string name1, int n)
 }
 int main()
 {
+
     string name;
     int n;
     
