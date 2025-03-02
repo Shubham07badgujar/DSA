@@ -56,7 +56,7 @@ int main()
         // pattern6(n);
         // pattern7(n);
         // pattern8(n);
-        // pattern9(n);
+        pattern9(n);
     }
 
     return 0;
